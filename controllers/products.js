@@ -70,6 +70,9 @@ const getAllProducts = async (req, res) => {
    if (featured) {
          queryObject.featured = featured;
        }
+   if (category) {
+         queryObject.category = category;
+       }
 
        let apiData = Product.find(queryObject);
        // let apiDataB = Business.find(queryObject);
