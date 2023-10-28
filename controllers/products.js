@@ -52,7 +52,7 @@
 
 //  module.exports = { getAllProducts, getAllProductsTesting };
  const Product = require("../models/product");
- const Business = require("../models/business");
+ // const Business = require("../models/business");
  
 
 const getAllProducts = async (req, res) => {
@@ -71,19 +71,19 @@ const getAllProducts = async (req, res) => {
          queryObject.featured = featured;
        }
 
-       let apiDataP = Product.find(queryObject);
-       let apiDataB = Business.find(queryObject);
+       let apiData = Product.find(queryObject);
+       // let apiDataB = Business.find(queryObject);
    
 
    if(sort) {
       let sortFix = sort.split(",").join(" ");
-      apiDataP = apiDataP.sort(sortFix);
-      apiDataB = apiDataB.sort(sortFix);
+      apiData = apiData.sort(sortFix);
+      // apiDataB = apiDataB.sort(sortFix);
    }
    if(select) {
       let selectFix = select.split(",").join(" ");
-      apiDataP = apiDataP.select(selectFix);
-      apiDataB = apiDataB.select(selectFix);
+      apiData = apiData.select(selectFix);
+      // apiDataB = apiDataB.select(selectFix);
    }
 
    let page = Number(req.query.page) || 1;
@@ -91,16 +91,16 @@ const getAllProducts = async (req, res) => {
    
     let skip = (page - 1) * limit;
    
-    apiDataP = apiDataP.skip(skip).limit(limit);
-    apiDataB = apiDataB.skip(skip).limit(limit);
+    apiData = apiData.skip(skip).limit(limit);
+    // apiDataB = apiDataB.skip(skip).limit(limit);
 
    const products = await apiDataP;
-    const business = await apiDataB;
-    const responseData = {
-      products: products,
-      business: business
-    };
-   res.status(200).json({responseData, nbHits: responseData.length })
+    // const business = await apiDataB;
+    // const responseData = {
+    //   products: products,
+    //   business: business
+    // };
+   res.status(200).json({products, nbHits: responseData.length })
 };
 const getAllProductsTesting = async (req, res) => {
    res.status(200).json({msg: "I have got all productsTesting"})
