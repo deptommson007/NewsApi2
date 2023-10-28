@@ -29,6 +29,10 @@ const productSchema = new mongoose.Schema({
       message : `{VALUE} is not supported`,
     },
   },
+   category: {
+    type: String,
+    required: true,
+  },
   
 });
 
