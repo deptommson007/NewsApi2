@@ -1,0 +1,173 @@
+[
+    
+    {
+      "name": "iphone",
+      "price": 154,
+      "featured": true,
+      "company": "apple",
+      "category":"politics"
+    },
+    {
+      "name": "iphone10",
+      "price": 1154,
+      "featured": true,
+      "company": "apple",
+      "category":"politics"
+    },
+    {
+      "name": "watch",
+      "price": 204,
+      "company": "apple",
+      "category":"politics"
+    },
+    {
+      "name": "watch10",
+      "price": 654,
+      "company": "apple",
+      "category":"politics"
+    },
+    {
+      "name": "iphone",
+      "price": 154,
+      "company": "apple",
+      "category":"politics"
+    },
+    {
+      "name": "iphone",
+      "price": 154,
+      "company": "apple",
+      "category":"politics"
+    },
+    {
+      "name": "iphone",
+      "price": 154,
+      "company": "apple",
+      "category":"politics"
+    },
+    {
+      "name": "iphone",
+      "price": 154,
+      "company": "apple",
+      "category":"politics"
+    },
+    {
+      "name": "tablet",
+      "price": 15400,
+      "company": "apple",
+      "category":"politics"
+    },
+    {
+      "name": "iphone",
+      "price": 154,
+      "featured": true,
+      "company": "apple",
+      "category":"business"
+    },
+    {
+      "name": "iphone10",
+      "price": 1154,
+      "featured": true,
+      "company": "apple",
+      "category":"business"
+    },
+    {
+      "name": "watch",
+      "price": 204,
+      "company": "apple",
+      "category":"business"
+    },
+    {
+      "name": "watch10",
+      "price": 654,
+      "company": "apple",
+      "category":"business"
+    },
+    {
+      "name": "iphone",
+      "price": 154,
+      "company": "apple",
+      "category":"business"
+    },
+    {
+      "name": "iphone",
+      "price": 154,
+      "company": "apple",
+      "category":"business"
+    },
+    {
+      "name": "iphone",
+      "price": 154,
+      "company": "apple",
+      "category":"business"
+    },
+    {
+      "name": "iphone",
+      "price": 154,
+      "company": "apple",
+      "category":"business"
+    },
+    {
+      "name": "tablet",
+      "price": 15400,
+      "company": "apple",
+      "category":"business"
+    },
+    {
+      "name": "iphone",
+      "price": 154,
+      "featured": true,
+      "company": "apple",
+      "category":"national"
+    },
+    {
+      "name": "iphone10",
+      "price": 1154,
+      "featured": true,
+      "company": "apple",
+      "category":"national"
+    },
+    {
+      "name": "watch",
+      "price": 204,
+      "company": "apple",
+      "category":"national"
+    },
+    {
+      "name": "watch10",
+      "price": 654,
+      "company": "apple",
+      "category":"national"
+    },
+    {
+      "name": "iphone",
+      "price": 154,
+      "company": "apple",
+      "category":"national"
+    },
+    {
+      "name": "iphone",
+      "price": 154,
+      "company": "apple",
+      "category":"national"
+    },
+    {
+      "name": "iphone",
+      "price": 154,
+      "company": "apple",
+      "category":"national"
+    },
+    {
+      "name": "iphone",
+      "price": 154,
+      "company": "apple",
+      "category":"national"
+    },
+    {
+      "name": "tablet",
+      "price": 15400,
+      "company": "apple",
+      "category":"national"
+    }
+  
+  
+  ]
