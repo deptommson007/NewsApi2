@@ -100,7 +100,7 @@ const getAllProducts = async (req, res) => {
     //   products: products,
     //   business: business
     // };
-   res.status(200).json({products, nbHits: responseData.length })
+   res.status(200).json({products, nbHits: products.length })
 };
 const getAllProductsTesting = async (req, res) => {
    res.status(200).json({msg: "I have got all productsTesting"})
